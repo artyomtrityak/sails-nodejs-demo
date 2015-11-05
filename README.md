@@ -38,7 +38,7 @@ UnitTests
 Routing, etc
 [Deprecated methods](http://expressjs.com/guide/migrating-5.html)
 
-###Bookshelf
+###Sequelize
 Database ORM
 
 ###Winston
