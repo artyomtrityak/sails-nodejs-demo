@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --debug ./app/index.js",
     "start": "node ./app/index.js",
-    "test": "echo \"Tests...\" "
+    "test": "eslint app/** && echo \"Run UnitTests...\" "
   },
   "repository": {
     "type": "git",

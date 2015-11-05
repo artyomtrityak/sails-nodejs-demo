@@ -2,9 +2,32 @@
 
 ##Setup
 
-- `npm install -g nodemon`
 - `npm install`
+- `npm test`
 - `npm run dev`
 
 ##Code style
-Connect `.editorconfig` and `.eslintrc` to your IDE syntax hightlight
+Connect `.editorconfig` and `.eslintrc` to your text editor syntax hightlight
+
+##Files structure
+
+###Configs
+Development / production / shared configs for database connection etc
+
+###Controllers
+Application routes and their logic, each controller is instance of express.Router()
+
+###Helpers
+Code and functionality to be shared by different parts of the project
+
+###Middlewares
+Express middlewares which process the incoming requests before handling them down to the routes
+
+###Models
+Database schemas without logic, simple schemas definitions
+
+###Resources
+Aggregeted logic on top of models
+
+###Tests
+UnitTests
