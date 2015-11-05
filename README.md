@@ -31,3 +31,24 @@ Aggregeted logic on top of models
 
 ###Tests
 UnitTests
+
+##Libs we are using
+
+###Express.js
+Routing, etc
+[Deprecated methods](http://expressjs.com/guide/migrating-5.html)
+
+###Sequelize
+Database ORM
+
+###Winston
+Logging
+
+###Passport
+For authendification
+
+###Lodash
+Helpers functions
+
+###Bluebird
+Promises
