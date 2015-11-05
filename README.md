@@ -2,7 +2,9 @@
 
 ##Setup
 
-- `npm install -g sails`
+- `npm install -g nodemon`
 - `npm install`
-- `sails lift`
+- `npm run dev`
 
+##Code style
+Connect `.editorconfig` and `.eslintrc` to your IDE syntax hightlight
