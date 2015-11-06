@@ -29,14 +29,15 @@ if (process.env.NODE_ENV === 'development') {
   app.use(errorhandler());
 }
 
+//Database
+require('app/models');
+
 //Bind routes
 require('app/controllers')(app);
 
-// catch 404 and forward to error handler
+// catch 404
 app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
+  res.status(404).json({message: 'API Not Found'});
 });
 
 var server = app.listen(3000, function () {

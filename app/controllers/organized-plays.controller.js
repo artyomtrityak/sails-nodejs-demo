@@ -5,10 +5,7 @@ var express = require('express'),
 
 module.exports = router;
 
+//Get list of available organized plays
 router.get('/', function(req, res) {
-  res.status(200).json({ok: 1});
-});
-
-router.get('/:id', function(req, res) {
-  res.status(200).json({ok: 2});
+  res.status(200).json({organizedPlays: []});
 });
